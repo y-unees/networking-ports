@@ -1,0 +1,448 @@
+{
+  "ports": [
+    {
+      "port": 7,
+      "name": "Echo",
+      "protocol": "TCP, UDP",
+      "description": "The Echo service is used for testing and debugging network connectivity and software by sending back the data it receives, mirroring the original message."
+    },
+    {
+      "port": 20,
+      "name": "FTP-data",
+      "protocol": "TCP, SCTP",
+      "description": "FTP (File Transfer Protocol) is used for transferring files between a client and a server, and this port handles data transfer in the FTP protocol."
+    },
+    {
+      "port": 21,
+      "name": "FTP",
+      "protocol": "TCP, SCTP, UDP",
+      "description": "FTP (File Transfer Protocol) is used for transferring files between a client and a server, allowing for both file uploads and downloads."
+    },
+    {
+      "port": 22,
+      "name": "SSH",
+      "protocol": "TCP",
+      "description": "SSH (Secure Shell) is used for secure remote administration of servers and for encrypted communication between a client and a server."
+    },
+    {
+      "port": 23,
+      "name": "Telnet",
+      "protocol": "TCP",
+      "description": "Telnet is an older protocol used for remote administration of systems over a network, though it transmits data in plain text and is considered insecure."
+    },
+    {
+      "port": 25,
+      "name": "SMTP",
+      "protocol": "TCP",
+      "description": "SMTP (Simple Mail Transfer Protocol) is used for sending email messages between mail servers."
+    },
+    {
+      "port": 53,
+      "name": "DNS",
+      "protocol": "TCP, UDP",
+      "description": "DNS (Domain Name System) is responsible for translating domain names into IP addresses, enabling users to access websites using human-readable names."
+    },
+    {
+      "port": 69,
+      "name": "TFTP",
+      "protocol": "UDP",
+      "description": "TFTP (Trivial File Transfer Protocol) is a simple file transfer protocol used for transferring files, often used for bootstrapping devices in a network."
+    },
+    {
+      "port": 80,
+      "name": "HTTP",
+      "protocol": "TCP",
+      "description": "HTTP (HyperText Transfer Protocol) is used for transmitting web pages and data over the internet. It is the foundation of data communication on the World Wide Web."
+    },
+    {
+      "port": 88,
+      "name": "Kerberos",
+      "protocol": "TCP, UDP",
+      "description": "Kerberos is a network authentication protocol used to securely authenticate users and services in a distributed network environment."
+    },
+    {
+      "port": 102,
+      "name": "MS RPC",
+      "protocol": "TCP, UDP",
+      "description": "MS RPC (Microsoft Remote Procedure Call) is a protocol used for communication between applications on different computers in a network."
+    },
+    {
+      "port": 110,
+      "name": "POP3",
+      "protocol": "TCP",
+      "description": "POP3 (Post Office Protocol 3) is used by email clients to retrieve emails from a mail server. It downloads messages for offline reading."
+    },
+    {
+      "port": 111,
+      "name": "RPCbind",
+      "protocol": "TCP/UDP",
+      "description": "Used for mapping remote procedure call (RPC) services to ports, commonly targeted in exploitation attempts."
+    },
+    {
+      "port": 135,
+      "name": "MS DCOM",
+      "protocol": "TCP, UDP",
+      "description": "MS DCOM (Microsoft Distributed Component Object Model) is used to allow software components to communicate over a network."
+    },
+    {
+      "port": 137,
+      "name": "NetBIOS Name Service",
+      "protocol": "UDP",
+      "description": "NetBIOS Name Service is used for name resolution on local area networks (LANs) to associate IP addresses with NetBIOS names."
+    },
+    {
+      "port": 139,
+      "name": "NetBIOS Session Service",
+      "protocol": "TCP, UDP",
+      "description": "NetBIOS Session Service enables communication between systems on a local network using the NetBIOS protocol."
+    },
+    {
+      "port": 143,
+      "name": "IMAP",
+      "protocol": "TCP",
+      "description": "IMAP (Internet Message Access Protocol) is used for retrieving and managing email messages from a server, allowing access from multiple devices."
+    },
+    {
+      "port": 381,
+      "name": "HP Data Protector",
+      "protocol": "TCP",
+      "description": "HP Data Protector is a backup and recovery software used to protect data by managing backup jobs and data storage."
+    },
+    {
+      "port": 383,
+      "name": "HP Data Protector",
+      "protocol": "TCP",
+      "description": "HP Data Protector's auxiliary service used for managing specific operations and data interactions within the software."
+    },
+    {
+      "port": 443,
+      "name": "HTTPS",
+      "protocol": "TCP",
+      "description": "HTTPS (HyperText Transfer Protocol Secure) is used for secure web traffic, providing SSL/TLS encryption to protect user data on the web."
+    },
+    {
+      "port": 445,
+      "name": "SMB",
+      "protocol": "TCP",
+      "description": "Used for file sharing and networked printing. Frequently targeted in attacks like EternalBlue and SMB relay."
+    },
+    {
+      "port": 464,
+      "name": "Kerberos Change/Set Password",
+      "protocol": "TCP, UDP",
+      "description": "Used by Kerberos for changing or setting user passwords securely in an authenticated network environment."
+    },
+    {
+      "port": 465,
+      "name": "SMTPS",
+      "protocol": "TCP",
+      "description": "SMTPS (Secure SMTP) is the secure version of SMTP, using SSL/TLS to encrypt email transmission."
+    },
+    {
+      "port": 514,
+      "name": "Syslog",
+      "protocol": "UDP",
+      "description": "Syslog is used for sending log messages between devices, typically for centralized logging."
+    },
+    {
+      "port": 587,
+      "name": "SMTP (Secure)",
+      "protocol": "TCP",
+      "description": "SMTP with STARTTLS is used for secure sending of email messages over the internet, typically for email client communication."
+    },
+    {
+      "port": 593,
+      "name": "HTTP RPC Ep Map",
+      "protocol": "TCP",
+      "description": "RPC Endpoint Mapper for managing remote procedure calls via HTTP, used by Microsoft services."
+    },
+    {
+      "port": 636,
+      "name": "LDAPS",
+      "protocol": "TCP",
+      "description": "LDAPS (LDAP over SSL) is a protocol for secure directory services over a network using SSL encryption."
+    },
+    {
+      "port": 631,
+      "name": "IPP",
+      "protocol": "TCP, UDP",
+      "description": "IPP (Internet Printing Protocol) is used for printing documents over a network."
+    },
+    {
+      "port": 691,
+      "name": "Microsoft RPC",
+      "protocol": "TCP",
+      "description": "Microsoft RPC (Remote Procedure Call) service used for communication between applications and servers in a Windows environment."
+    },
+    {
+      "port": 902,
+      "name": "VMware Server",
+      "protocol": "TCP",
+      "description": "Used by VMware server software for communication and management of virtual machines."
+    },
+    {
+      "port": 989,
+      "name": "FTPS Data",
+      "protocol": "TCP",
+      "description": "FTPS (File Transfer Protocol Secure) for encrypted data transfer in the FTP protocol."
+    },
+    {
+      "port": 990,
+      "name": "FTPS",
+      "protocol": "TCP",
+      "description": "FTPS (File Transfer Protocol Secure) is a secure extension to FTP that adds SSL/TLS encryption for secure file transfers."
+    },
+    {
+      "port": 993,
+      "name": "IMAPS",
+      "protocol": "TCP",
+      "description": "IMAPS (Internet Message Access Protocol Secure) is the secure version of IMAP that uses SSL/TLS encryption to protect email data."
+    },
+    {
+      "port": 995,
+      "name": "POP3S",
+      "protocol": "TCP",
+      "description": "POP3S (Post Office Protocol 3 Secure) is the secure version of POP3, using SSL/TLS encryption for secure email retrieval."
+    },
+    {
+      "port": 1025,
+      "name": "Network File System",
+      "protocol": "TCP",
+      "description": "Used for file sharing and remote access to file systems across a network."
+    },
+    {
+      "port": 1194,
+      "name": "OpenVPN",
+      "protocol": "TCP, UDP",
+      "description": "OpenVPN is used for secure point-to-point or site-to-site connections in virtual private networks (VPN)."
+    },
+    {
+      "port": 1337,
+      "name": "Leetspeak",
+      "protocol": "TCP",
+      "description": "This is a port often associated with informal internet culture, notably 'leet' or '1337' speak, but it may be used for various purposes."
+    },
+    {
+      "port": 1433,
+      "name": "Microsoft SQL Server",
+      "protocol": "TCP",
+      "description": "Used for communication with Microsoft SQL Server, a relational database management system."
+    },
+    {
+      "port": 1589,
+      "name": "Cisco VQP",
+      "protocol": "TCP, UDP",
+      "description": "It allows end-devices on LANs to be authenticated via their MAC address and an appropriate VLAN attributed to the port, using a VLAN Management Policy Server (VMPS)"
+    },
+    {
+      "port": 1725,
+      "name": "SMB Direct",
+      "protocol": "TCP",
+      "description": "SMB Direct is used for fast file sharing and communication over a network using the SMB protocol."
+    },
+    {
+      "port": 2082,
+      "name": "cPanel",
+      "protocol": "TCP",
+      "description": "Used by cPanel, a web hosting control panel, to manage website hosting accounts and services."
+    },
+    {
+      "port": 2083,
+      "name": "cPanel (Secure)",
+      "protocol": "TCP",
+      "description": "The secure version of the cPanel port for managing hosting services over SSL encryption."
+    },
+    {
+      "port": 2483,
+      "name": "Oracle DB",
+      "protocol": "TCP",
+      "description": "Oracle database service for communication with database management systems over a network."
+    },
+    {
+      "port": 2484,
+      "name": "Oracle DB Secure",
+      "protocol": "TCP",
+      "description": "The secure version of the Oracle database service, using SSL encryption for secure communication."
+    },
+    {
+      "port": 2967,
+      "name": "Fax over IP",
+      "protocol": "UDP",
+      "description": "Used for transmitting fax signals over an IP network, enabling the transmission of fax data without traditional telephone lines."
+    },
+    {
+      "port": 3074,
+      "name": "Xbox Live",
+      "protocol": "UDP",
+      "description": "Used for communication in the Xbox Live network for online gaming and services."
+    },
+    {
+      "port": 3306,
+      "name": "MySQL",
+      "protocol": "TCP",
+      "description": "MySQL is an open-source relational database management system, using this port for communication with databases."
+    },
+    {
+      "port": 3389,
+      "name": "RDP",
+      "protocol": "TCP",
+      "description": "RDP (Remote Desktop Protocol) allows for remote desktop access to a computer running Windows."
+    },
+    {
+      "port": 3724,
+      "name": "Blizzard Game",
+      "protocol": "TCP",
+      "description": "Used by Blizzard Entertainment games like World of Warcraft for server communication."
+    },
+    {
+      "port": 4444,
+      "name": "Oracle DB Listener/Metasploit",
+      "protocol": "TCP",
+      "description": "Used by Oracle Database for handling incoming database connection requests."
+    },
+    {
+      "port": 4664,
+      "name": "Exceed",
+      "protocol": "TCP",
+      "description": "Exceed is a software used for remote access to graphical applications over a network."
+    },
+    {
+      "port": 5432,
+      "name": "PostgreSQL",
+      "protocol": "TCP",
+      "description": "PostgreSQL is a powerful open-source relational database management system that uses this port for database communication."
+    },
+    {
+      "port": 5500,
+      "name": "Python SimpleHTTPServer",
+      "protocol": "TCP",
+      "description": "Used by Python's SimpleHTTPServer module for serving HTTP requests, typically for local testing and development."
+    },
+    {
+      "port": 5900,
+      "name": "VNC",
+      "protocol": "TCP",
+      "description": "VNC (Virtual Network Computing) allows remote access to a desktop environment over the network."
+    },
+    {
+      "port": 6660,
+      "name": "IRC",
+      "protocol": "TCP",
+      "description": "Commonly used for botnet communication in DDoS attacks. Often targeted by attackers using IRC protocols."
+    },
+    {
+      "port": 6665,
+      "name": "IRC",
+      "protocol": "TCP",
+      "description": "IRC (Internet Relay Chat) used for online text communication and messaging over a network."
+    },
+    {
+      "port": 6666,
+      "name": "XChat IRC",
+      "protocol": "TCP",
+      "description": "Used for IRC communication, often exploited by attackers for command and control (C&C) communication."
+    },
+    {
+      "port": 6669,
+      "name": "IRC",
+      "protocol": "TCP",
+      "description": "Another commonly used IRC (Internet Relay Chat) server port for online messaging."
+    },
+    {
+      "port": 6881,
+      "name": "BitTorrent",
+      "protocol": "TCP",
+      "description": "BitTorrent is a peer-to-peer file sharing protocol for distributing data over the internet."
+    },
+    {
+      "port": 6999,
+      "name": "Yahoo Messenger",
+      "protocol": "TCP",
+      "description": "Used for communication in the Yahoo Messenger instant messaging platform."
+    },
+    {
+      "port": 6970,
+      "name": "SIP",
+      "protocol": "TCP",
+      "description": "SIP (Session Initiation Protocol) is used for establishing and managing voice, video, and messaging communication."
+    },
+    {
+      "port": 8000,
+      "name": "HTTP Alt",
+      "protocol": "TCP",
+      "description": "Used for running HTTP services on alternate ports, commonly used for development and testing purposes."
+    },
+    {
+      "port": 8086,
+      "name": "MongoDB",
+      "protocol": "TCP",
+      "description": "MongoDB is a NoSQL database that uses this port for communication with its database service, typically for managing data storage and retrieval in web applications."
+    },
+    {
+      "port": 8087,
+      "name": "cPanel (Admin)",
+      "protocol": "TCP",
+      "description": "Used for secure administrative access to cPanel services and management."
+    },
+    {
+      "port": 8089,
+      "name": "Splunk Web",
+      "protocol": "TCP",
+      "description": "Used by Splunk for web-based interaction with the Splunk platform, typically for managing logs and system monitoring."
+    },
+    {
+      "port": 8222,
+      "name": "vSphere Web Client",
+      "protocol": "TCP",
+      "description": "Used by VMware vSphere Web Client for managing VMware ESXi servers and virtual machines."
+    },
+    {
+      "port": 9000,
+      "name": "PHP-FPM",
+      "protocol": "TCP",
+      "description": "PHP-FPM is a PHP FastCGI Process Manager used for handling web traffic that involves PHP scripting."
+    },
+    {
+      "port": 9001,
+      "name": "Tor",
+      "protocol": "TCP",
+      "description": "Tor (The Onion Router) is used for anonymous communication over the internet."
+    },
+    {
+      "port": 9100,
+      "name": "JetDirect",
+      "protocol": "TCP",
+      "description": "Used for printing services, especially for HP printers over a network."
+    },
+    {
+      "port": 10000,
+      "name": "Webmin",
+      "protocol": "TCP",
+      "description": "Webmin is a web-based interface used for system administration and server management."
+    },
+    {
+      "port": 10051,
+      "name": "Zabbix Agent",
+      "protocol": "TCP",
+      "description": "Zabbix Agent is used by the Zabbix monitoring system for remote monitoring of servers and devices."
+    },
+    {
+      "port": 12345,
+      "name": "NetBus",
+      "protocol": "TCP",
+      "description": "NetBus is a trojan horse malware that allows remote control of an infected system."
+    },
+    {
+      "port": 27374,
+      "name": "Sub 7",
+      "protocol": "TCP",
+      "description": "Sub 7 is another trojan horse malware that provides remote control access to an infected system."
+    },
+    {
+      "port": 31337,
+      "name": "Back Orifice",
+      "protocol": "TCP",
+      "description": "Back Orifice is a notorious remote access trojan (RAT) used for unauthorized control of infected systems."
+    }
+  ]
+}
